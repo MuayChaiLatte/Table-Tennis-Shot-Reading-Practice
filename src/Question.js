@@ -1,10 +1,9 @@
 import OptionButton from './OptionButton.js';
 import QuestionContent from './QuestionContent.js';
-const szQuestionText = "Is this topspin or backspin?";
-export default function Question() {
+export default function Question({szQuestionText,szVideoURL}) {
     return (<div>
         <h2>{szQuestionText}</h2>
-        <QuestionContent videoURL={"https://www.youtube.com/embed/ZK_vz4FiJuc"} />
+        <QuestionContent szVideoURL={szVideoURL} />
         <OptionButton text="topspin" />
         <OptionButton text="backspin" />
     </div>);
