@@ -1,4 +1,3 @@
-
 import OptionButton from './OptionButton.js';
 const szQuestionText = "Is this topspin or backspin?"
 export default function Question() {

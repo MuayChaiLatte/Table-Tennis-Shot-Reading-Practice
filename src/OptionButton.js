@@ -1,6 +1,4 @@
-export default OptionButton
-
-function OptionButton({text}) {
+export default function OptionButton({text}) {
     return <button>
         {text}
     </button>
