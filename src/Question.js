@@ -4,7 +4,7 @@ export default function Question({szQuestionText,szVideoURL}) {
     return (<div>
         <h2>{szQuestionText}</h2>
         <QuestionContent szVideoURL={szVideoURL} />
-        <OptionButton text="topspin" />
-        <OptionButton text="backspin" />
+        <OptionButton text="topspin" isAnswerCorrect="false" />
+        <OptionButton text="backspin" isAnswerCorrect="true" />
     </div>);
 }
