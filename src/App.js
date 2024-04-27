@@ -1,7 +1,8 @@
 import './App.css';
 import Question from './Question.js';
 let oExampleQuestionData = {
-  szVideoURL: "https://www.youtube.com/embed/ZK_vz4FiJuc"
+  szVideoURL: "https://www.youtube.com/embed/ZK_vz4FiJuc",
+  aWhichOptionIsCorrect: [0,1]
 }
 
 function App() {
