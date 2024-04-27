@@ -1,9 +1,9 @@
-export default function OptionButton({text, isAnswerCorrect}) {
+export default function OptionButton({szButtonText, szIsOptionCorrect}) {
     function handleClick() {
-        alert(isAnswerCorrect)
+        alert(szIsOptionCorrect)
     }
     
     return <button onClick={handleClick}>
-        {text}
+        {szButtonText}
     </button>
 }

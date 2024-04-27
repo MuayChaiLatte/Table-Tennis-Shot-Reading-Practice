@@ -5,7 +5,7 @@ export default function Question({szQuestionText,oQuestionData}) {
     return (<div>
         <h2>{szQuestionText}</h2>
         <QuestionContent szVideoURL={oQuestionData.szVideoURL} />
-        <OptionButton text="topspin" isAnswerCorrect="false" />
-        <OptionButton text="backspin" isAnswerCorrect="true" />
+        <OptionButton szButtonText="topspin" szIsOptionCorrect="false" />
+        <OptionButton szButtonText="backspin" szIsOptionCorrect="true" />
     </div>);
 }
